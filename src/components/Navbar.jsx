@@ -66,7 +66,7 @@ useGSAP(() => {
     {/* // full screen menu */}
     <div className={`fixed z-20 inset-0 bg-black text-white flex flex-col justify-center items-center
      gap-8 transition-transform duration-500 ${menuOpen ? "translate-y-0" : '-translate-y-full'} `} onClick={()=> setMenuOpen(false)}>
-      <Link to="/" className="menu-link">Home</Link>
+      <Link to="/home" className="menu-link">Home</Link>
      <Link to="/projects" className="menu-link">Project</Link>
     <Link to="/contact" className="menu-link">Contact</Link>
     </div>
