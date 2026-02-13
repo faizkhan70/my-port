@@ -69,6 +69,8 @@ useGSAP(() => {
       <Link to="/home" className="menu-link">Home</Link>
      <Link to="/projects" className="menu-link">Project</Link>
     <Link to="/contact" className="menu-link">Contact</Link>
+      
+    
     </div>
     </>
     

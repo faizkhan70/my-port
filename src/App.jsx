@@ -4,6 +4,9 @@ import Home from './pages/Home'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import Projects from './pages/Projects'
+import Contact from './pages/Contact'
+
+
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
         <Route path='/' element={<Home />} />        {/* 👈 Default Home */}
         <Route path='/home' element={<Home />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/contact' element={<Contact />} />
+      
+
       </Routes>
 
       <Footer />
